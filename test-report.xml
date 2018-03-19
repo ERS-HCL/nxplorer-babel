@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testExecutions version="1">
-  <file path="E:\workspace\nxplorer-babel\__tests__\createServer.test.js">
-    <testCase name="Backpack with Jest Object Rest Spread" duration="16"/>
-    <testCase name="Backpack with Jest HTTP Request" duration="338"/>
-  </file>
-</testExecutions>
