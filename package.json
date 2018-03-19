@@ -25,12 +25,12 @@
   "devDependencies": {
     "babel-eslint": "^8.2.2",
     "babel-jest": "^23.0.0-alpha.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-stage-2": "^6.24.1",
     "backpack-core": "^0.7.0",
     "concurrently": "^3.5.1",
     "cross-env": "^5.1.4",
     "documentation": "^6.1.0",
-    "dotenv": "^5.0.1",
     "eslint": "^4.19.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.9.0",
@@ -46,11 +46,8 @@
     "wait-port": "^0.2.2"
   },
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0",
-    "express": "^4.16.3",
-    "graphql-yoga": "^1.6.1",
-    "nodemon": "^1.17.2"
+    "dotenv": "^5.0.1",
+    "graphql-yoga": "^1.6.1"
   },
   "keywords": [
     "babel",
