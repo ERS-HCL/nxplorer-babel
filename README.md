@@ -6,6 +6,8 @@ Babel version of nxplorerJS
 * Based on ES6 standards
 * Will act as a starter project for GraphQL APIs
 
+![nxp-babel](logo.png)
+
 ## Added so far
 
 * Backpack based build
