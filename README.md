@@ -13,4 +13,6 @@ Babel version of nxplorerJS
 * Prettier support
 * Jest configuration
 * Sonar Qube configuration
+* Code documentation support
 * GraphQL server using graphQL yoga
+* The key design principles include secure, performant , light weight , pluggable architecture
