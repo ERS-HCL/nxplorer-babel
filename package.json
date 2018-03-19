@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsukhu/nxplorer-babel.git"
+    "url": "git+https://github.com/ERS-HCL/nxplorer-babel.git"
   },
   "author": "tksukhu@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tsukhu/nxplorer-babel/issues"
+    "url": "https://github.com/ERS-HCL/nxplorer-babel/issues"
   },
-  "homepage": "https://github.com/tsukhu/nxplorer-babel#readme",
+  "homepage": "https://github.com/ERS-HCL/nxplorer-babel#readme",
   "devDependencies": {
     "babel-eslint": "^8.2.2",
     "babel-jest": "^23.0.0-alpha.0",
