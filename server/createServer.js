@@ -1,25 +1,12 @@
 import { GraphQLServer, PubSub } from 'graphql-yoga'
 
 export default () => {
-  const typeDefs = `
-  type Query {
-    hello: String!
-  }
-  type Counter {
-    count: Int!
-    countStr: String
-  }
-  type Subscription {
-    counter: Counter!
-  }
-`
-
   const resolvers = {
     Query: {
-      hello: () => `Hello`,
+      hello: () => `Hello`
     },
     Counter: {
-      countStr: counter => `Current count: ${counter.count}`,
+      countStr: counter => `Current count: ${counter.count}`
     },
     Subscription: {
       counter: {
@@ -30,16 +17,20 @@ export default () => {
           let count = 0
           setInterval(
             () => pubsub.publish(channel, { counter: { count: count++ } }),
-            2000,
+            2000
           )
           return pubsub.asyncIterator(channel)
-        },
-      },
-    },
+        }
+      }
+    }
   }
 
   const pubsub = new PubSub()
-  const server = new GraphQLServer({ typeDefs, resolvers, context: { pubsub } })
+  const server = new GraphQLServer({
+    typeDefs: './server/schema/main.graphql',
+    resolvers,
+    context: { pubsub }
+  })
 
   server.start(() => console.log('Server is running on localhost:4000'))
 }

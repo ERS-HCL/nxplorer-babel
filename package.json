@@ -43,7 +43,8 @@
     "rimraf": "^2.6.2",
     "shelljs": "^0.8.1",
     "supertest": "^3.0.0",
-    "wait-port": "^0.2.2"
+    "wait-port": "^0.2.2",
+    "webpack-graphql-loader": "^0.1.0"
   },
   "dependencies": {
     "dotenv": "^5.0.1",

@@ -13,8 +13,7 @@
       "error",
       {
         "singleQuote": true,
-        "semi": false,
-        "trailingComma": "all"
+        "semi": false
       }
     ]
   }

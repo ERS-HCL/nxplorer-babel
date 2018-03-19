@@ -4,9 +4,12 @@ module.exports = {
     // Important: return the modified config
 
     // changes the name of the entry point from index -> main.js
-    config.entry.main = [
-      './server/index.js'
-    ]
+    config.entry.main = ['./server/index.js']
+
+    config.module.rules.push({
+      test: /\.graphql?$/,
+      loader: 'webpack-graphql-loader'
+    })
 
     return config
   }
