@@ -21,6 +21,8 @@ coverage
 .scannerwork
 reports
 reports/*
+docs/*
+docs
 
 #Kubernetes Temp files
 k8s/.*

@@ -1,0 +1,9 @@
+{
+  "testEnvironment": "node",
+  "collectCoverage": true,
+  "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"],
+  "globals": {
+    "__DEV__": true
+  },
+  "testResultsProcessor": "jest-sonar-reporter"
+}

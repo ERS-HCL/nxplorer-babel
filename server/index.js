@@ -1,5 +1,7 @@
-import test from './test';
+import createServer from './createServer'
+import * as dotenv from 'dotenv'
 
-console.log(process.env.SECRET_MESSAGE);
-console.log(process.env.TOKEN);
-test('BABEL IS WORKING');
+dotenv.config()
+
+const port = process.env.PORT || 3000
+const app = createServer()
