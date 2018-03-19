@@ -1,6 +1,6 @@
 # nxplorer-babel
 
-Babel version of nxplorerJS
+Babel version of [nxplorerJS project](https://github.com/ERS-HCL/nxplorerjs-microservice-starter)
 
 * This is a GraphQL only version of nxplorerJS
 * Based on ES6 standards
@@ -17,4 +17,4 @@ Babel version of nxplorerJS
 * Sonar Qube configuration
 * Code documentation support
 * GraphQL server using graphQL yoga
-* The key design principles include secure, performant , light weight , pluggable architecture
+* The key design principles include secure, performant , light weight , pluggable architecture, clean and lean code
