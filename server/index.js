@@ -1,6 +1,6 @@
 import createServer from './createServer'
 import * as dotenv from 'dotenv'
 
-dotenv.config({ path: `.${process.env.NODE_ENV}.env` });
+dotenv.config({ path: `.${process.env.NODE_ENV}.env` })
 
 const app = createServer()
