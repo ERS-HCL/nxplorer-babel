@@ -4,12 +4,12 @@
   "description": "nXplorer Babel version",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --forceExit --config unit.config.json",
+    "test": "cross-env NODE_ENV=test jest --forceExit --config jest.unit-test.json",
     "start": "node ./build/main.js",
     "lint": "eslint --fix server __tests__",
-    "dev": "backpack dev",
-    "build": "backpack build",
-    "postinstall": "backpack build",
+    "dev": "cross-env NODE_ENV=development node build.js && backpack dev",
+    "build": "cross-env NODE_ENV=production node build.js && backpack build",
+    "postinstall": "build",
     "docs": "documentation build server/** -f html -o docs"
   },
   "repository": {

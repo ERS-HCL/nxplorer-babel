@@ -1,2 +1,2 @@
-#import * from "./sample-schema1.graphql"
+#import * from "./sample-schema.graphql"
 

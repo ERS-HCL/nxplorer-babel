@@ -17,4 +17,5 @@ Babel version of [nxplorerJS project](https://github.com/ERS-HCL/nxplorerjs-micr
 * Sonar Qube configuration
 * Code documentation support
 * GraphQL server using graphQL yoga
+* Added ShellJS based build infrastructure
 * The key design principles include secure, performant , light weight , pluggable architecture, clean and lean code
